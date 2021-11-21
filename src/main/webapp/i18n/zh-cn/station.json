@@ -1,0 +1,36 @@
+{
+  "mqttApplicationApp": {
+    "station": {
+      "home": {
+        "title": "Stations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Station",
+        "createOrEditLabel": "创建或编辑 Station",
+        "notFound": "No Stations found"
+      },
+      "created": "Station {{ param }} 创建成功",
+      "updated": "Station {{ param }} 更新成功",
+      "deleted": "Station {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Station {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Station"
+      },
+      "id": "ID",
+      "deviceNo": "Device No",
+      "captureTime": "Capture Time",
+      "bottomRight": "Bottom Right",
+      "cValue": "C Value",
+      "dValue": "D Value",
+      "errorCode": "Error Code",
+      "index": "Index",
+      "objParaX": "Obj Para X",
+      "objParaY": "Obj Para Y",
+      "objPosX": "Obj Pos X",
+      "objPosY": "Obj Pos Y",
+      "topLeft": "Top Left",
+      "wParam": "W Param"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "DeviceStatus",
+  "fields": [
+    {
+      "fieldName": "deviceNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fourG",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "term",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "battery",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "batMode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "curVersion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "workMode",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "device_status",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211121093832"
+}

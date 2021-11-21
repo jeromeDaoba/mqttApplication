@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Station.
+    -->
+    <changeSet id="20211121093834-1" author="jhipster">
+        <createTable tableName="station">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="device_no" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="capture_time" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="bottom_right" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="c_value" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="d_value" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="error_code" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="jhi_index" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="obj_para_x" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="obj_para_y" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="obj_pos_x" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="obj_pos_y" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="top_left" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="w_param" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20211121093834-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/station.csv"
+                  separator=";"
+                  tableName="station"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="device_no" type="string"/>
+            <column name="capture_time" type="numeric"/>
+            <column name="bottom_right" type="string"/>
+            <column name="c_value" type="string"/>
+            <column name="d_value" type="string"/>
+            <column name="error_code" type="numeric"/>
+            <column name="jhi_index" type="numeric"/>
+            <column name="obj_para_x" type="string"/>
+            <column name="obj_para_y" type="string"/>
+            <column name="obj_pos_x" type="string"/>
+            <column name="obj_pos_y" type="string"/>
+            <column name="top_left" type="string"/>
+            <column name="w_param" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

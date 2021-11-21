@@ -1,0 +1,28 @@
+{
+  "mqttApplicationApp": {
+    "collectData": {
+      "home": {
+        "title": "Collect Data",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Collect Data",
+        "createOrEditLabel": "创建或编辑 Collect Data",
+        "notFound": "No Collect Data found"
+      },
+      "created": "Collect Data {{ param }} 创建成功",
+      "updated": "Collect Data {{ param }} 更新成功",
+      "deleted": "Collect Data {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Collect Data {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Collect Data"
+      },
+      "id": "ID",
+      "deviceNo": "Device No",
+      "time": "Time",
+      "xVal": "X Val",
+      "yVal": "Y Val",
+      "allVals": "All Vals"
+    }
+  }
+}
