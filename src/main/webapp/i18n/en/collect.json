@@ -1,0 +1,33 @@
+{
+  "mqttApplicationApp": {
+    "collect": {
+      "home": {
+        "title": "Collects",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Collect",
+        "createOrEditLabel": "Create or edit a Collect",
+        "notFound": "No Collects found"
+      },
+      "created": "A new Collect is created with identifier {{ param }}",
+      "updated": "A Collect is updated with identifier {{ param }}",
+      "deleted": "A Collect is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Collect {{ id }}?"
+      },
+      "detail": {
+        "title": "Collect"
+      },
+      "id": "ID",
+      "outSideId": "Out Side Id",
+      "name": "Name",
+      "time": "Time",
+      "data": "Data",
+      "projectId": "Project Id",
+      "channelCount": "Channel Count",
+      "plusInterval": "Plus Interval",
+      "uploadInterval": "Upload Interval",
+      "hz": "Hz",
+      "deviceNo": "Device No"
+    }
+  }
+}

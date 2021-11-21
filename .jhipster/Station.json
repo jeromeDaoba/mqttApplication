@@ -1,0 +1,68 @@
+{
+  "name": "Station",
+  "fields": [
+    {
+      "fieldName": "deviceNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "captureTime",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "bottomRight",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "errorCode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "index",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "objParaX",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "objParaY",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "objPosX",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "objPosY",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "topLeft",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "wParam",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "station",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211121100608"
+}

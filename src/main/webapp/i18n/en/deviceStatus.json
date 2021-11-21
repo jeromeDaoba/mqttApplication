@@ -1,0 +1,31 @@
+{
+  "mqttApplicationApp": {
+    "deviceStatus": {
+      "home": {
+        "title": "Device Statuses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Device Status",
+        "createOrEditLabel": "Create or edit a Device Status",
+        "notFound": "No Device Statuses found"
+      },
+      "created": "A new Device Status is created with identifier {{ param }}",
+      "updated": "A Device Status is updated with identifier {{ param }}",
+      "deleted": "A Device Status is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Device Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Device Status"
+      },
+      "id": "ID",
+      "deviceNo": "Device No",
+      "code": "Code",
+      "fourG": "Four G",
+      "term": "Term",
+      "battery": "Battery",
+      "batMode": "Bat Mode",
+      "curVersion": "Cur Version",
+      "workMode": "Work Mode"
+    }
+  }
+}
