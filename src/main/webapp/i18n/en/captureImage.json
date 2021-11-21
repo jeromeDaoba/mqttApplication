@@ -1,0 +1,29 @@
+{
+  "mqttApplicationApp": {
+    "captureImage": {
+      "home": {
+        "title": "Capture Images",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Capture Image",
+        "createOrEditLabel": "Create or edit a Capture Image",
+        "notFound": "No Capture Images found"
+      },
+      "created": "A new Capture Image is created with identifier {{ param }}",
+      "updated": "A Capture Image is updated with identifier {{ param }}",
+      "deleted": "A Capture Image is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Capture Image {{ id }}?"
+      },
+      "detail": {
+        "title": "Capture Image"
+      },
+      "id": "ID",
+      "deviceNo": "Device No",
+      "captureTime": "Capture Time",
+      "format": "Format",
+      "hParam": "H Param",
+      "image": "Image",
+      "msgId": "Msg Id"
+    }
+  }
+}

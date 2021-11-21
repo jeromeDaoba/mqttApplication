@@ -1,0 +1,40 @@
+{
+  "name": "CaptureImage",
+  "fields": [
+    {
+      "fieldName": "deviceNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "captureTime",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "format",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hParam",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "msgId",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "capture_image",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211121100607"
+}
