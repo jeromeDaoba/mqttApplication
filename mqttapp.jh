@@ -1,0 +1,72 @@
+
+
+
+
+entity CollectData {
+  deviceNo String,
+  time Long,
+  xVal String,
+  yVal String,
+  allVals String
+}
+
+entity Collect {
+outSideId String,
+name String,
+time Long,
+data String,
+projectId String,
+channelCount Integer,
+  plusInterval Integer,
+    uploadInterval Interval,
+    hz Number,
+deviceNo String
+}
+
+entity DeviceStatus {
+  deviceNo String,
+  code Integer,
+  fourG Integer,
+  term Long,
+  battery Integer,
+  batMode Integer,
+  curVersion String,
+  workMode Integer
+}
+
+entity CaptureImage {
+   deviceNo String,
+   captureTime Long,
+   format String,
+   hParam Integer,
+   image String,
+   msgId Integer
+}
+
+entity Station {
+   deviceNo String,
+   captureTime Long,
+   bottomRight String,
+   cValue String,
+   dValue String,
+   errorCode Integer,
+   index Integer,
+   objParaX String,
+   objParaY String,
+   objPosX String,
+   objPosY String,
+   topLeft String,
+   wParam Integer
+}
+
+
+paginate * with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
