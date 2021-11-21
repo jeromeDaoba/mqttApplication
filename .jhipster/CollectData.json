@@ -1,0 +1,36 @@
+{
+  "name": "CollectData",
+  "fields": [
+    {
+      "fieldName": "deviceNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "time",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "xVal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "yVal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "allVals",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "collect_data",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211121093830"
+}

@@ -42,7 +42,9 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["CollectData", "Collect", "DeviceStatus", "CaptureImage", "Station"],
+    "lastLiquibaseTimestamp": 1637487514000
   },
   "git-provider": "GitHub",
   "git-company": "jeromeDaoba",
